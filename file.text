@@ -1,0 +1,34 @@
+How Web Works Exercise
+Part One: Solidify Terminology
+In your own terms, define the following terms:
+
+What is HTTP?
+Hypertext Transfer Protocol-- How browsers and servers communicate by using standard rules.
+
+What is a URL?
+A URL is how documents and other resources are identified on the World Wide Web.
+
+What is DNS?
+DNS translates a hostname (url) to a corresponding IP address.
+
+What is a query string?
+A query string is on the end of a url. It begins with a '?' and it is a value/key pair combination that is sends a request to a server.  It is often used when a user searches for something on the web.
+
+What are two HTTP verbs and how are they different?
+GET and POST
+GET: Used when the user simply is requesting information with no side effects. When you type a URL and hit enter, it is always a GET request.
+POST: POST requests are used when there are side effects, such as making a change on the server. An example is submitting a form that is being saved to a database.
+
+What is an HTTP request?
+When a user enters a URL, clicks a link, or performs other functions on a website, one or more requests are sent to a server.
+
+What is an HTTP response?
+Following an HTTP request, the server will process the request and send back a response to the request with information.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+A header includes information such as: the date the browser thinks it is and the language preferences
+of the browser. 
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+Multiple HTTP requests are sent to a server, the server process the requests and sends back a response. If the requests are ok, it will include a response code of 200 and you will see the information you requested.  If it is not ok, a common code to see is 404.
